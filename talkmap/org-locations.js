@@ -1,22 +1,32 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Insects in cities: A within-cityscape ecological systems approach to reveal the mechanistic processes that shape urban flying insect communities?<br />7th European Congress of Conservation Biology (ECCB); Bologna, Italy",
+    44.4938203,
+    11.3426327
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "The impact of urbanisation on diversity, performance and fitness of cavity-nesting Hymenoptera: insights from a large-scale citizen science project<br />7th European Congress of Conservation Biology (ECCB); Bologna, Italy",
+    44.4938203,
+    11.3426327
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "The impact of urban development on diversity, performance and fitness of cavity-nesting Hymenoptera<br />8th Annual Meeting of German Centre for Integrative Biodiversity Research (iDiv); Leipzig, Germany",
+    51.3406321,
+    12.3747329
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "How do local resources and landscape heterogeneity affect flying insect communities in cities?<br />52nd Annual Meeting of the Ecological Society of Germany, Austria and Switzerland (Gf\u00d6); Leipzig, Germany",
+    51.3406321,
+    12.3747329
+  ],
+  [
+    "The effects of urban landscape heterogeneity on cavity-nesting Hymenoptera<br />52nd Annual Meeting of the Ecological Society of Germany, Austria and Switzerland (Gf\u00d6); Leipzig, Germany",
+    51.3406321,
+    12.3747329
+  ],
+  [
+    "Phylogeography of Turkish honeybees (Apis mellifera L.) based on microsatellite markers<br />6th Ecology and Evolutionary Biology Symposium; Ankara, Turkey",
+    39.9207759,
+    32.8540497
   ]
 ];
