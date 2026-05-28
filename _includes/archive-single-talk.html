@@ -34,40 +34,23 @@
       {% endif %}
     </h2>
     
-    <!-- AUTHOR NAMES - bold any name containing Celikgil/Çelikgil -->
+    <!-- AUTHOR NAMES - bold your name variations -->
     {% if post.authors %}
       <p class="archive__item-excerpt" itemprop="author">
         <strong>Authors:</strong> 
         {% assign authors_text = post.authors %}
         
-        <!-- First, handle "X Celikgil" format -->
-        {% assign parts = authors_text | split: " " %}
-        {% assign new_parts = "" %}
+        <!-- Replace common name variations (order matters - put longer ones first) -->
+        {% assign authors_text = authors_text | replace: 'Atilla Celikgil', '<strong>Atilla Celikgil</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Atilla Çelikgil', '<strong>Atilla Çelikgil</strong>' %}
+        {% assign authors_text = authors_text | replace: 'A. Celikgil', '<strong>A. Celikgil</strong>' %}
+        {% assign authors_text = authors_text | replace: 'A. Çelikgil', '<strong>A. Çelikgil</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Celikgil, Atilla', '<strong>Celikgil, Atilla</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Çelikgil, Atilla', '<strong>Çelikgil, Atilla</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Celikgil, A.', '<strong>Celikgil, A.</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Çelikgil, A.', '<strong>Çelikgil, A.</strong>' %}
         
-        {% for part in parts %}
-          {% if part contains "Celikgil" or part contains "Çelikgil" %}
-            <!-- Find the full name (capture previous part if it's a first initial or name) -->
-            {% assign prev_index = forloop.index0 | minus: 1 %}
-            {% if prev_index >= 0 %}
-              {% assign prev_part = parts[prev_index] %}
-              {% if prev_part.size == 2 or prev_part.size == 1 or prev_part contains "." or prev_part == "Atilla" %}
-                <!-- Combine with previous part -->
-                {% assign full_name = prev_part | append: " " | append: part %}
-                <!-- Remove the previous part from new_parts if it was added -->
-                {% assign new_parts = new_parts | replace_first: prev_part, "" %}
-                {% assign new_parts = new_parts | append: "<strong>" | append: full_name | append: "</strong> " %}
-              {% else %}
-                {% assign new_parts = new_parts | append: "<strong>" | append: part | append: "</strong> " %}
-              {% endif %}
-            {% else %}
-              {% assign new_parts = new_parts | append: "<strong>" | append: part | append: "</strong> " %}
-            {% endif %}
-          {% else %}
-            {% assign new_parts = new_parts | append: part | append: " " %}
-          {% endif %}
-        {% endfor %}
-        
-        {{ new_parts }}
+        {{ authors_text }}
       </p>
     {% endif %}
     
