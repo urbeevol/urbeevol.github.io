@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Neon Light skin
+   ========================================================================== */
+
+/* Colors - Light version */
+$background-color: #faf8f5 !default;
+$text-color: #1a1a1a !default;
+$primary-color: #e0115f !default;  // Slightly toned down neon pink for light mode
+$border-color: mix(#000, $background-color, 15%) !default;
+$code-background-color: mix(#fff, $background-color, 50%) !default;
+$code-background-color-dark: mix(#000, $background-color, 10%) !default;
+$form-background-color: #ffffff !default;
+$footer-background-color: mix($primary-color, #fff, 8%) !default;
+$link-color: $primary-color !default;
+$link-color-hover: mix(#000, $link-color, 20%) !default;
+$link-color-visited: mix(#666, $link-color, 30%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: mix(#fff, $background-color, 80%) !default;
+
+/* notices - Light version */
+$notice-background-mix: 95% !default;
+$code-notice-background-mix: 98% !default;
+
+/* neon syntax highlighting (light theme version - base16) */
+$base00: #1a1a1a !default;      // dark text
+$base01: #2d2d2d !default;
+$base02: #3d3d3d !default;
+$base03: #555555 !default;
+$base04: #e0e0e0 !default;
+$base05: #f5f5f5 !default;
+$base06: #fafafa !default;
+$base07: #ffffff !default;       // light background
+$base08: #e0115f !default;       // neon pink
+$base09: #fd8900 !default;       // orange
+$base0a: #aba800 !default;       // yellow/gold
+$base0b: #00a812 !default;       // green
+$base0c: #1f8a8a !default;       // teal
+$base0d: #0066cc !default;       // blue
+$base0e: #8a00a1 !default;       // purple
+$base0f: #cc6633 !default;       // brown/orange
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
+
+/* next/previous buttons */
+.pagination--pager {
+  color: $background-color;
+  background-color: $primary-color;
+  border-color: transparent;
+
+  &:visited {
+    color: $background-color;
+  }
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
