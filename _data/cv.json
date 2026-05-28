@@ -1,152 +1,297 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Atilla Çelikgil",
+    "email": "atillacelikgil@gmail.com",
+    "website": "https://urbeevol.github.io/",
+    "summary": "PhD candidate in Biology at Martin Luther University of Halle-Wittenberg, researching wild bee responses to urban ecosystems using comparative genomics. Research assistant with experience in molecular biology, population genetics, and biodiversity conservation.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "address": "Hoher Weg 8",
+      "postalCode": "06120",
+      "city": "Halle",
+      "countryCode": "DE",
+      "region": "Saxony-Anhalt"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "AO7BAY4AAAAJ",
+        "url": "https://scholar.google.com/citations?user=AO7BAY4AAAAJ&hl=en"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "0000-0003-3734-0888",
+        "url": "https://orcid.org/0000-0003-3734-0888"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "",
+        "url": ""
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Martin Luther University of Halle-Wittenberg",
+      "position": "Research Assistant",
+      "startDate": "2022",
+      "endDate": "present",
+      "summary": "Project: A comparative genomic approach of wild bee responses to urban ecosystems. Supervisors: Panagiotis Theodorou, PhD & Robert Paxton, PhD",
+      "highlights": []
+    },
+    {
+      "name": "Max Planck Institute for Evolutionary Anthropology",
+      "position": "Research Assistant",
+      "startDate": "2020",
+      "endDate": "2020",
+      "summary": "Project: Screening undiagnosed bone fragments from Flores, Indonesia, in search for hobbit (Homo floresiensis) DNA. Supervisor: Matthias Meyer, PhD",
+      "highlights": []
+    },
+    {
+      "name": "Middle East Technical University (METU)",
+      "position": "Research Assistant",
+      "startDate": "2017",
+      "endDate": "2021",
+      "summary": "Project: Genetic structure -geography relations and genome-wide selection in European honeybees of Asia minor (Apis mellifera). Supervisor: C. Can Bilgin, PhD",
+      "highlights": []
+    },
+    {
+      "name": "Martin Luther University of Halle-Wittenberg",
+      "position": "Research Assistant",
+      "startDate": "2018",
+      "endDate": "2018",
+      "summary": "Projects: Identification of cryptic species of Euglossa: Genomic analysis of odorant receptor genes; Assessing the susceptibility of European honeybees (Apis mellifera) to Deformed wing virus-A (DWV-A). Supervisor: Robert Paxton, PhD",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Martin Luther University of Halle-Wittenberg",
+      "area": "Biology",
+      "studyType": "PhD",
+      "startDate": "2022",
+      "endDate": "present",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "University of Leipzig",
+      "area": "Biodiversity, Ecology and Evolution",
+      "studyType": "MSc",
+      "startDate": "2019",
+      "endDate": "2021",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Middle East Technical University (METU)",
+      "area": "Molecular Biology and Genetics",
+      "studyType": "BSc",
+      "startDate": "2015",
+      "endDate": "2019",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Research Skills",
+      "keywords": [
+        "Comparative genomics",
+        "Population genetics",
+        "Molecular biology",
+        "Bayesian statistics",
+        "Structural Equation Modelling",
+        "Meta-analysis",
+        "Demographic Inference"
+      ]
+    },
+    {
+      "name": "Software & Tools",
+      "keywords": ["R", "Python", "Bash"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "Ecological genomics",
+        "Conservation biology",
+        "Conservation genetics",
+        "Evolutionary biology"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Prey and prejudice: predation by the European bee-eater Merops apiaster has species-specific effects on the ecology and genetics of bumblebees",
+      "publisher": "",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Belinda Kahnt, Andreas Etel, Felix Jarosch, Oliver Schweiger, Atilla Çelikgil, Panagiotis Theodorou"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Urban intensity reshapes Hymenoptera communities and decouples nesting from reproduction",
+      "publisher": "bioRxiv (PREPRINT) / Under review at Nature Cities",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Çelikgil A., Henzschel L., Sänger J., Krause P., Nemetschek A., Husemann M., Theodorou P."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "The impact of urban development on diversity, performance and fitness of cavity-nesting Hymenoptera",
+      "event": "8th Annual Meeting of German Centre for Integrative Biodiversity Research (iDiv)",
+      "date": "2024",
+      "location": "Leipzig, Germany",
+      "description": "Authors: A. Celikgil, P. Theodorou"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Insects in cities: A within-cityscape ecological systems approach to reveal the mechanistic processes that shape urban flying insect communities?",
+      "event": "7th European Congress of Conservation Biology (ECCB)",
+      "date": "2024",
+      "location": "Bologna, Italy",
+      "description": "Authors: A. Celikgil, A. Schmidt, P. Theodorou"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "The impact of urbanisation on diversity, performance and fitness of cavity-nesting Hymenoptera: insights from a large-scale citizen science project",
+      "event": "7th European Congress of Conservation Biology (ECCB)",
+      "date": "2024",
+      "location": "Bologna, Italy",
+      "description": "Authors: P. Theodorou, A. Celikgil"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "How do local resources and landscape heterogeneity affect flying insect communities in cities?",
+      "event": "52nd Annual Meeting of the Ecological Society of Germany, Austria and Switzerland (GfÖ)",
+      "date": "2023",
+      "location": "Leipzig, Germany",
+      "description": "Authors: A. Celikgil, A. Schmidt, P. Theodorou"
+    },
+    {
+      "name": "The effects of urban landscape heterogeneity on cavity-nesting Hymenoptera",
+      "event": "52nd Annual Meeting of the Ecological Society of Germany, Austria and Switzerland (GfÖ)",
+      "date": "2023",
+      "location": "Leipzig, Germany",
+      "description": "Authors: A. Celikgil, J. Sänger, A. Nemetschek, P. Theodorou (Poster)"
+    },
+    {
+      "name": "Phylogeography of Turkish honeybees (Apis mellifera L.) based on microsatellite markers",
+      "event": "6th Ecology and Evolutionary Biology Symposium",
+      "date": "2019",
+      "location": "Ankara, Turkey",
+      "description": "Authors: A. Celikgil, M. Kükrer, C. C. Bilgin (Poster)"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Group Research Colloquium in General Zoology",
+      "institution": "Martin Luther University of Halle-Wittenberg",
+      "date": "2022-2026",
+      "role": "Co-organiser and Lecturer",
+      "description": "Co-organised and lectured in a research colloquium on student-led zoology projects; provided mentoring and feedback on scientific presentations."
+    }
+  ],
+  "supervision": [
+    {
+      "student": "Selina Friedel",
+      "degree": "MSc",
+      "project": "Insect community structure along urbanisation gradients",
+      "role": "Co-supervisor",
+      "date": "2024"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "student": "Lars Henzschel",
+      "degree": "BSc",
+      "project": "The effects of urbanisation on parasitism and mortality of cavity-nesting Hymenoptera",
+      "role": "Co-supervisor",
+      "date": "2023"
+    },
+    {
+      "student": "Pascal Krause",
+      "degree": "BSc",
+      "project": "Diet of urban cavity-nesting bees",
+      "role": "Co-supervisor",
+      "date": "2023"
+    },
+    {
+      "student": "Alexandra Schmidt",
+      "degree": "MSc",
+      "project": "Local resources and landscape effects on urban flying insect communities",
+      "role": "Co-supervisor",
+      "date": "2023"
+    },
+    {
+      "student": "Adrian Nemetschek",
+      "degree": "MSc",
+      "project": "The effects of landscape heterogeneity within urban ecosystems on cavity-nesting Hymenoptera",
+      "role": "Co-supervisor",
+      "date": "2023"
+    },
+    {
+      "student": "Jonathan Sänger",
+      "degree": "BSc",
+      "project": "The impact of urbanisation on trap nesting Hymenoptera",
+      "role": "Co-supervisor",
+      "date": "2023"
+    },
+    {
+      "student": "Başak Dinçer",
+      "degree": "BSc (Internship)",
+      "project": "Erasmus+ internship",
+      "role": "Supervisor",
+      "date": "2024"
+    },
+    {
+      "student": "Duygu Akbulut",
+      "degree": "BSc (Internship)",
+      "project": "Erasmus+ internship",
+      "role": "Supervisor",
+      "date": "2024"
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Erasmus+ Doctoral Summer School on Biodiversity scholarship",
+      "category": "Grant",
+      "date": "2024",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": ""
+    },
+    {
+      "name": "DAAD scholarships for conferences",
+      "category": "Grant",
+      "date": "2024",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "German Centre for Integrative Biodiversity Research Flexpool research grant",
+      "category": "Grant",
+      "date": "2023",
+      "url": "",
+      "description": "Co-PI"
+    },
+    {
+      "name": "METU Development Foundation undergraduate research grant",
+      "category": "Grant",
+      "date": "2019",
+      "url": "",
+      "description": "PI"
+    },
+    {
+      "name": "Erasmus+ EU Traineeship scholarship",
+      "category": "Grant",
+      "date": "2018",
+      "url": "",
+      "description": ""
+    },
+    {
+      "name": "TÜBİTAK 2209/A undergraduate research grant",
+      "category": "Grant",
+      "date": "2017",
+      "url": "",
+      "description": "PI"
     }
   ]
 }
