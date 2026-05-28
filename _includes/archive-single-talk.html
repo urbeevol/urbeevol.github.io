@@ -48,7 +48,11 @@
         {% assign authors_text = authors_text | replace: 'Celikgil, Atilla', '<strong>Celikgil, Atilla</strong>' %}
         {% assign authors_text = authors_text | replace: 'Çelikgil, Atilla', '<strong>Çelikgil, Atilla</strong>' %}
         {% assign authors_text = authors_text | replace: 'Celikgil, A.', '<strong>Celikgil, A.</strong>' %}
-        {% assign authors_text = authors_text | replace: 'Çelikgil, A.', '<strong>Çelikgil, A.</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Çelikgil, A.', '<strong>Çelikgil, A.</strong>' %}   
+        {% assign authors_text = authors_text | replace: 'Celikgil Atilla', '<strong>Celikgil Atilla</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Çelikgil Atilla', '<strong>Çelikgil Atilla</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Celikgil A.', '<strong>Celikgil A.</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Çelikgil A.', '<strong>Çelikgil A.</strong>' %}
         
         {{ authors_text }}
       </p>
