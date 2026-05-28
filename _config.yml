@@ -28,7 +28,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Solving nature's problems, and coming up with more."
   location         : "Earth"
-  employer         : "Martin Luther University Halle-Wittenberg"
+  employer         : |
+    Martin Luther University 
+    Halle-Wittenberg
   uri              : # URL
   email            : "atillacelikgil@gmail.com" 
 
@@ -85,7 +87,6 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   manuscripts:
-    title: 'Journal Articles'    
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
