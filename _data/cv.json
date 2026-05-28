@@ -187,9 +187,10 @@
     {
       "course": "Group Research Colloquium in General Zoology",
       "institution": "Martin Luther University of Halle-Wittenberg",
-      "date": "2022-2026",
-      "role": "Co-organiser and Lecturer",
-      "description": "Co-organised and lectured in a research colloquium on student-led zoology projects; provided mentoring and feedback on scientific presentations."
+      "StartDate": "2022",
+      "EndDate": "2026",
+      "role": "Project supervisor",
+      "description": "Co-organised and supervised in a research colloquium on student-led zoology projects; provided mentoring and feedback on scientific presentations."
     }
   ],
   "supervision": [
