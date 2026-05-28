@@ -2,9 +2,9 @@
 title: "Phylogeography of Turkish honeybees (Apis mellifera L.) based on microsatellite markers"
 collection: Conferences
 type: "Poster"
-permalink: /talks/2019-05-phylogeography-turkish-honeybees
+permalink: /talks/2019-05-01-phylogeography-turkish-honeybees
 venue: "6th Ecology and Evolutionary Biology Symposium"
-date: 2019-05
+date: 2019-05-01
 location: "Ankara, Turkey"
 authors: "**A. Celikgil**, M. Kükrer, C. C. Bilgin"
 ---
