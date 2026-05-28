@@ -25,6 +25,7 @@
           alt="">
       </div>
     {% endif %}
+    
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -33,16 +34,37 @@
       {% endif %}
     </h2>
     
-    <!-- ADD AUTHOR NAMES HERE -->
+    <!-- AUTHOR NAMES - simple pattern matching -->
     {% if post.authors %}
-      <p class="archive__item-excerpt" itemprop="author">{{ post.authors }}</p>
+      <p class="archive__item-excerpt" itemprop="author">
+        <strong>Authors:</strong> 
+        {% assign authors_text = post.authors %}
+        
+        <!-- Bold anything containing Celikgil or Çelikgil -->
+        {% assign authors_text = authors_text | replace: 'Celikgil', '<strong>Celikgil</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Çelikgil', '<strong>Çelikgil</strong>' %}
+        {% assign authors_text = authors_text | replace: 'Atilla', '<strong>Atilla</strong>' %}
+        {% assign authors_text = authors_text | replace: 'A. Celikgil', '<strong>A. Celikgil</strong>' %}
+        {% assign authors_text = authors_text | replace: 'A. Çelikgil', '<strong>A. Çelikgil</strong>' %}
+        
+        {{ authors_text }}
+      </p>
     {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}}</p>{% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    
+    {% if post.date %}
+      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
+    {% endif %}
+    
+    {% if post.venue %}
+      <p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}}</p>
+    {% endif %}
+    
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% endif %}
   </article>
 </div>
